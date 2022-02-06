@@ -359,6 +359,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
+  
 }
 .job-list > .item {
   flex-basis: calc(100% / 3 - 30px);
@@ -368,8 +369,13 @@ button {
   margin-left: 30px;
 }
 
-.job-label {
-  /* position: absolute; */
+.item-job {
+  position: relative;
+  overflow: hidden;
+}
+
+.job-text {
+  position: absolute;
   width: 100%;
   left: 0;
   bottom: 0;
@@ -381,7 +387,8 @@ button {
   padding: 27px 0;
   background-color: rgba(47, 48, 58, 0.8);
   color: #FFFFFF;
-}
+} 
+
 
 /* ------- Our comand ------- */
 
