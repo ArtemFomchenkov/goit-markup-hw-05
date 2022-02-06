@@ -668,6 +668,10 @@ border-radius: 0px 0px 4px 4px; */
 
 /* -_-_-_-_-_-_- PORTFOLIO -_-_-_-_-_-_- */
 
+.portfolio {
+  margin-top: 80px;
+}
+
 .filter-list {
   display: flex;
   margin-bottom: 50px;
