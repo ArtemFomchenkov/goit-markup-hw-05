@@ -160,7 +160,7 @@ button {
   color: #2196f3;
 }
 
-.current::after {
+.link.current::after {
   content: "";
   position: absolute;
   width: 100%;
