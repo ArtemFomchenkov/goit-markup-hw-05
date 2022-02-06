@@ -110,7 +110,7 @@ button {
   min-height: 80px;
   border-bottom: 1px solid #ececec;
   background-color: var(--nav-bg-color);
-  /* z-index: 10; */
+  z-index: 10;
 }
 
 .header-nav {
