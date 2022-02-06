@@ -238,6 +238,10 @@ button {
   padding-bottom: 200px;
 }
 
+.hero-container {
+  margin-top: 80px;
+}
+
 .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
