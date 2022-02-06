@@ -103,11 +103,11 @@ button {
 /* ------- Header ------- */
 
 .header {
-  /* position: fixed;
+  position: fixed;
   width: 100%;
   top: 0;
   left: 0;
-  min-height: 80px; */
+  min-height: 80px;
   border-bottom: 1px solid #ececec;
   background-color: var(--nav-bg-color);
   z-index: 10;
