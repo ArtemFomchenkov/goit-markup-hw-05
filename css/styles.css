@@ -103,11 +103,11 @@ button {
 /* ------- Header ------- */
 
 .header {
-  position: fixed;
+  /* position: fixed;
   width: 100%;
   top: 0;
   left: 0;
-  min-height: 80px;
+  min-height: 80px; */
   border-bottom: 1px solid #ececec;
   background-color: var(--nav-bg-color);
   z-index: 10;
@@ -166,10 +166,11 @@ button {
   width: 100%;
   height: 4px;
   left: 0;
-  bottom: 0;
+  bottom: -3px;
   border-radius: 2px;
   background-color: var(--accent-logo-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .contact {
@@ -213,7 +214,7 @@ button {
 
 /* ------- Hero ------- */
 
-.hero.section {
+.hero {
   max-width: 1600px;
   min-height: 600px;
   margin-right: auto;
@@ -689,6 +690,9 @@ flex-basis: calc(100% / 3 - 30px);
   text-align: center;
   background-color: #f5f4fa;
   color: var(--second-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-primary:hover,
